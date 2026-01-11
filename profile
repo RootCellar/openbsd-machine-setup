@@ -8,6 +8,10 @@ PATH="$PATH:$HOME/.local/bin/"
 # Default editor
 export EDITOR=nano
 
+# Add color support
+# (only use if actually supported)
+export TERM=xterm
+
 # Disable animations and enable colors for 2048
 alias 2048="2048 -Ac"
 
